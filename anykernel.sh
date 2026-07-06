@@ -31,8 +31,8 @@ no_magisk_check=1
 # Flash kernel directly without selection menu
 if [ -f "$AKHOME/Image.clo.ksu" ]; then
   ui_print " "
-  ui_print "Flashing YASK CLO KSU Kernel..."
-  mv -f "$AKHOME/Image.clo.ksu" "$AKHOME/Image"
+  ui_print "Flashing YASK GKI KSU Kernel..."
+  mv -f "$AKHOME/Image.gki.ksu" "$AKHOME/Image"
 elif [ -f "$AKHOME/Image" ]; then
   ui_print " "
   ui_print "Flashing kernel..."
