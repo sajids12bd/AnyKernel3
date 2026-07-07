@@ -3,7 +3,7 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=by belowzeroiq @ github
+kernel.string=by ZeroKnowledge @ github
 do.devicecheck=1
 do.modules=0
 do.systemless=0
